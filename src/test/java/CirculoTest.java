@@ -12,12 +12,12 @@ public class CirculoTest {
 
     @org.junit.jupiter.api.Test
     void testArea() {
-        Circulo circulo = new Circulo(4.567f);
 
-        assertEquals(131.0513, circulo.getArea(), 0.0001);
+        Circulo circulo = new Circulo(4.567f);
+        assertEquals(65.52568f, circulo.getArea(), 0.0001);
 
         circulo.setRaio(7f);
-        assertEquals(307.8758, circulo.getArea(), 0.0001);
+        assertEquals(153.93791f, circulo.getArea(), 0.0001);
     }
 
     @org.junit.jupiter.api.Test
